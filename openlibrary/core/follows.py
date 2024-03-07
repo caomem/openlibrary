@@ -98,7 +98,6 @@ class PubSub:
 
         return Bookshelves.fetch(recent_books)
 
-
     @classmethod
     def count_subscriptions(cls, subscriber):
         oldb = db.get_db()
